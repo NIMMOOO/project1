@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@500&family=Kaushan+Script&display=swap" rel="stylesheet" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <div class="bg-image"></div>
+        <nav>
+            <a href="game.html" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to Dabotics: Unleash the Power of Automation!</h1>
+            <p>At Dabotics, we're passionate about pushing the boundaries of automation to transform the way businesses operate.<br> Our cutting-edge solutions empower you to streamline processes, enhance efficiency, and unlock new possibilities.<br> Whether you're a startup, a small business, or an enterprise, our expert team is here to guide you through the exciting world of robotics and automation.</p>
+            <a href="" class="hero-btn"> visit us to know more</a>
+
+
+
+
+        </div>
+    </section>
+    <section class="Courses">
+    <h1>
+        Courses we offer:
+    </h1>
+    <p> Tailored Robotics Solutions<br>From intelligent manufacturing systems to AI-powered logistics, our range of robotics solutions is designed to cater to your unique needs. Our team of experienced engineers and developers work closely with you to understand your challenges and create customized automation solutions that fit seamlessly into your operations. Whether you're looking to optimize your supply chain, improve product quality, or enhance customer experiences, we have you covered.</p>
+    <div class="row">
+        <div class="Courses-col">
+            <h3>WEB DEVELOPMENT</h3>
+            <p>
+                Embark on a journey of digital creativity with our Web Development course.<br> Learn to craft captivating and interactive websites using the latest front-end and back-end technologies. From HTML and CSS for design finesse, to JavaScript for dynamic user experiences, our comprehensive course equips you with the skills to build modern, responsive web applications.<br> Unlock the world of web development and turn your ideas into captivating online experiences.
+            </p>
+        </div>
+        <div class="Courses-col">
+            <h3>AL/ML</h3>
+            <p>
+                Delve into the realm of Artificial Intelligence and Machine Learning, where algorithms come to life.<br> Our course empowers you to understand and implement AI/ML techniques that drive innovation across industries. Gain insights into neural networks, deep learning, and data modeling.<br> From predictive analytics to natural language processing, you'll harness the power of algorithms to make informed decisions and shape the future.
+            </p>
+        </div>
+        <div class="Courses-col">
+            <h3>DATA SCIENCE</h3>
+            <p>
+                Unearth the hidden insights within vast data landscapes with our Data Science course. <br>Learn to extract, analyze, and visualize data patterns to drive informed business decisions. Dive into statistical analysis, data mining, and machine learning algorithms. <br>Acquire the skills to transform raw data into actionable intelligence, unlocking the potential for enhanced strategies and problem-solving.
+            </p>
+        </div>
+    </div>
+</section>
+
+    <section class="campus">
+        <h1>Achievments</h1>
+        <p>Multi-Tasking Robots
+            Hadrian X
+            Ocean Robot
+            Saul Robot
+            Paro
+            Robotic Vacuum Cleaner
+            Delivery Robot
+        </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="covers/bg12.webp">
+                
+                    <h3 class="title">ROBOTICS</h3>
+                  
+                </div>
+            
+            <div class="campus-col">
+                <img src="covers/bg13.jpeg">
+                <h3 class="title">ARTIFICIAL INTELLIGENCE</h3>
+                    
+                </div>
+            
+            <div class="campus-col">
+                <img src="covers/bg11.avif">
+                
+                    <h3 class="title">DEEP LEARNING</h3>
+                  
+                
+            </div>
+        </div>
+        </section>
+        <section class="facilities">
+            <h1>OUR FACILITIES</h1>
+            <P>Embrace the future of technology and embark on a transformative learning experience. Whether you're passionate about web development, AI/ML, or data science, our courses provide the foundation for your success. Equip yourself with cutting-edge skills and become a catalyst for innovation. Enroll now and shape the digital landscape with confidence.
+
+                Ready to embrace the future? Enroll in our courses and unleash your potential!</P>
+                <div class="row">
+                    <div class="facilities-col">
+                    <img src="covers/background.jpg">
+                    <h3>Flexible Learning</h3>
+                    <p>Our flexible schedules and online resources empower you to learn at your own pace.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="covers/bg01.jpg">
+                    <h3>Career Growth</h3>
+                    <p>Gain in-demand skills that open doors to diverse career opportunities in technology and innovation.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="covers/bg9.jpg">
+                    <h3>Expert Faculty</h3>
+                    <p> Our courses are led by experienced professionals who bring real-world insights to your learning journey.</p>
+                </div>
+
+
+        </section>
+        <section class="testimonials">
+            <h1>REVIEWS</h1>
+            <P>Reviews can vary widely in tone, length, and detail. They can be positive, negative, or neutral, and they may include star ratings, scores, or written comments. Reading a variety of reviews can help individuals gather diverse opinions and make more informed decisions based on the experiences of others.</P>
+            <div class="row">
+            <div class="testimonials-col">
+                <img src="covers/11.jpg">
+                <div>
+                    <p>My internship at Dabotics was an incredible learning experience! From day one, I was immersed in real-world projects that challenged me to apply my skills in a supportive and innovative environment. The team's dedication to mentorship and professional growth helped me gain confidence in my abilities. I had the opportunity to collaborate with brilliant minds, and the insights I gained will undoubtedly shape my future career. Thank you, Dabotics, for an unforgettable internship journey!
+
+                        Review by NAVNEET:</p>
+                        <h3>NAVNEET TIWARI</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="covers/12.jpg">
+                <div>
+                    <p>Joining Dabotics for my internship was a game-changer. The company's commitment to cutting-edge technology and creative problem-solving truly stood out. Throughout my internship, I was encouraged to think outside the box and contribute ideas that were not only heard but also implemented. The inclusive and collaborative culture at Dabotics fostered an environment where I felt valued and empowered. I walked away with invaluable skills and connections that I'm excited to carry forward.
+                        </p>
+                        <h3>SANYOG TIWARI</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="covers/13.jpg">
+                <div>
+                    <p>
+                        As an intern at Dabotics, I was blown away by the company's dedication to innovation and excellence. From coding workshops to cross-functional team projects, I was constantly engaged in meaningful work that pushed my boundaries. The open-door policy of the senior leadership team allowed me to seek guidance and learn from experienced professionals. Dabotics truly values its interns and invests in their growth. I am grateful for the opportunity to have been part of this dynamic team.</p>
+                        <h3>NIVEDITA TIWARI</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="cta">
+            <img src="covers/bg9.jpg">
+            <h1>ENROLL FOR OUR VARIOUS ONLINE COURSES!!</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Our mission is to harness the potential of robotics to drive innovation across industries. We believe that automation isn't just about replacing manual tasks; it's about revolutionizing workflows, enabling growth, and achieving unprecedented levels of precision. With our advanced robotics technologies and tailored solutions, we're dedicated to helping you achieve your business objectives faster and smarter.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i></p>
+        </section>
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
